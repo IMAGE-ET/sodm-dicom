@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A6326561E2A4A9F00A33D11 /* GPUImage.xcodeproj in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A63264C1E2A4A7100A33D11 /* GPUImage.xcodeproj */; };
+		5A6326591E2A4AC900A33D11 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6326551E2A4A7100A33D11 /* GPUImage.framework */; };
 		8990B2531E21981A0061E8A3 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8990B2521E21981A0061E8A3 /* ImageScrollView.swift */; };
 		89BEF0B81E1D627300BBF162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF0B71E1D627300BBF162 /* AppDelegate.swift */; };
 		89BEF0BA1E1D627400BBF162 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF0B91E1D627400BBF162 /* FirstViewController.swift */; };
@@ -14,23 +16,29 @@
 		89BEF0BF1E1D627400BBF162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BEF0BD1E1D627400BBF162 /* Main.storyboard */; };
 		89BEF0C11E1D627400BBF162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BEF0C01E1D627400BBF162 /* Assets.xcassets */; };
 		89BEF0C41E1D627400BBF162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BEF0C21E1D627400BBF162 /* LaunchScreen.storyboard */; };
-		89BEF10C1E1D708200BBF162 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BEF1051E1D6FD600BBF162 /* GPUImage.framework */; };
 		89BEF1121E1D731D00BBF162 /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF1111E1D731D00BBF162 /* FilterManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		89BEF1021E1D6FD600BBF162 /* PBXContainerItemProxy */ = {
+		5A6326521E2A4A7100A33D11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 89BEF0FC1E1D6FD500BBF162 /* GPUImage.xcodeproj */;
+			containerPortal = 5A63264C1E2A4A7100A33D11 /* GPUImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
 			remoteInfo = GPUImage;
 		};
-		89BEF1041E1D6FD600BBF162 /* PBXContainerItemProxy */ = {
+		5A6326541E2A4A7100A33D11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 89BEF0FC1E1D6FD500BBF162 /* GPUImage.xcodeproj */;
+			containerPortal = 5A63264C1E2A4A7100A33D11 /* GPUImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		5A6326571E2A4AB700A33D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A63264C1E2A4A7100A33D11 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE209E41943F20C002FEED8;
 			remoteInfo = GPUImageFramework;
 		};
 /* End PBXContainerItemProxy section */
@@ -48,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A63264C1E2A4A7100A33D11 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "Dicom/GPUImage-master/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		8990B2521E21981A0061E8A3 /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
 		89BEF0B41E1D627300BBF162 /* Dicom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BEF0B71E1D627300BBF162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +66,6 @@
 		89BEF0C01E1D627400BBF162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89BEF0C31E1D627400BBF162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89BEF0C51E1D627400BBF162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89BEF0FC1E1D6FD500BBF162 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../../Downloads/GPUImage-master-2/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		89BEF1111E1D731D00BBF162 /* FilterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,19 +74,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89BEF10C1E1D708200BBF162 /* GPUImage.framework in Frameworks */,
+				5A6326591E2A4AC900A33D11 /* GPUImage.framework in Frameworks */,
+				5A6326561E2A4A9F00A33D11 /* GPUImage.xcodeproj in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A63264B1E2A4A7100A33D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A63264C1E2A4A7100A33D11 /* GPUImage.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A63264D1E2A4A7100A33D11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6326531E2A4A7100A33D11 /* libGPUImage.a */,
+				5A6326551E2A4A7100A33D11 /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		89BEF0AB1E1D627300BBF162 = {
 			isa = PBXGroup;
 			children = (
-				89BEF0FC1E1D6FD500BBF162 /* GPUImage.xcodeproj */,
 				89BEF0B61E1D627300BBF162 /* Dicom */,
 				89BEF0B51E1D627300BBF162 /* Products */,
+				5A63264B1E2A4A7100A33D11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,15 +132,6 @@
 			path = Dicom;
 			sourceTree = "<group>";
 		};
-		89BEF0FD1E1D6FD500BBF162 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				89BEF1031E1D6FD600BBF162 /* libGPUImage.a */,
-				89BEF1051E1D6FD600BBF162 /* GPUImage.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,6 +147,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5A6326581E2A4AB700A33D11 /* PBXTargetDependency */,
 			);
 			name = Dicom;
 			productName = Dicom;
@@ -148,7 +166,7 @@
 				TargetAttributes = {
 					89BEF0B31E1D627300BBF162 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = TLVDPXCM7K;
+						DevelopmentTeam = 3YEST46AA9;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -171,8 +189,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 89BEF0FD1E1D6FD500BBF162 /* Products */;
-					ProjectRef = 89BEF0FC1E1D6FD500BBF162 /* GPUImage.xcodeproj */;
+					ProductGroup = 5A63264D1E2A4A7100A33D11 /* Products */;
+					ProjectRef = 5A63264C1E2A4A7100A33D11 /* GPUImage.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -183,18 +201,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		89BEF1031E1D6FD600BBF162 /* libGPUImage.a */ = {
+		5A6326531E2A4A7100A33D11 /* libGPUImage.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libGPUImage.a;
-			remoteRef = 89BEF1021E1D6FD600BBF162 /* PBXContainerItemProxy */;
+			remoteRef = 5A6326521E2A4A7100A33D11 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		89BEF1051E1D6FD600BBF162 /* GPUImage.framework */ = {
+		5A6326551E2A4A7100A33D11 /* GPUImage.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = GPUImage.framework;
-			remoteRef = 89BEF1041E1D6FD600BBF162 /* PBXContainerItemProxy */;
+			remoteRef = 5A6326541E2A4A7100A33D11 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -226,6 +244,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A6326581E2A4AB700A33D11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImageFramework;
+			targetProxy = 5A6326571E2A4AB700A33D11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		89BEF0BD1E1D627400BBF162 /* Main.storyboard */ = {
@@ -344,8 +370,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TLVDPXCM7K;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3YEST46AA9;
 				INFOPLIST_FILE = Dicom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anapotempa.Dicom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,8 +385,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TLVDPXCM7K;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3YEST46AA9;
 				INFOPLIST_FILE = Dicom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anapotempa.Dicom;
 				PRODUCT_NAME = "$(TARGET_NAME)";

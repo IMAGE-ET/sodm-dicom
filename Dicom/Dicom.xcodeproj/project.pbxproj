@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A40C2431E2D3E6000EE26BC /* Custom-Icon-Design-Flatastic-8-Go-back.ico in Resources */ = {isa = PBXBuildFile; fileRef = 5A40C2421E2D3E6000EE26BC /* Custom-Icon-Design-Flatastic-8-Go-back.ico */; };
 		5A6326561E2A4A9F00A33D11 /* GPUImage.xcodeproj in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A63264C1E2A4A7100A33D11 /* GPUImage.xcodeproj */; };
 		5A6326591E2A4AC900A33D11 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6326551E2A4A7100A33D11 /* GPUImage.framework */; };
 		8990B2531E21981A0061E8A3 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8990B2521E21981A0061E8A3 /* ImageScrollView.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A40C2421E2D3E6000EE26BC /* Custom-Icon-Design-Flatastic-8-Go-back.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = "Custom-Icon-Design-Flatastic-8-Go-back.ico"; path = "../../../../../Downloads/Custom-Icon-Design-Flatastic-8-Go-back.ico"; sourceTree = "<group>"; };
 		5A63264C1E2A4A7100A33D11 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "Dicom/GPUImage-master/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		8990B2521E21981A0061E8A3 /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
 		89BEF0B41E1D627300BBF162 /* Dicom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dicom.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 				89BEF0BB1E1D627400BBF162 /* SecondViewController.swift */,
 				89BEF0BD1E1D627400BBF162 /* Main.storyboard */,
 				89BEF0C01E1D627400BBF162 /* Assets.xcassets */,
+				5A40C2421E2D3E6000EE26BC /* Custom-Icon-Design-Flatastic-8-Go-back.ico */,
 				89BEF0C21E1D627400BBF162 /* LaunchScreen.storyboard */,
 				89BEF0C51E1D627400BBF162 /* Info.plist */,
 				89BEF1111E1D731D00BBF162 /* FilterManager.swift */,
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89BEF0C41E1D627400BBF162 /* LaunchScreen.storyboard in Resources */,
+				5A40C2431E2D3E6000EE26BC /* Custom-Icon-Design-Flatastic-8-Go-back.ico in Resources */,
 				89BEF0C11E1D627400BBF162 /* Assets.xcassets in Resources */,
 				89BEF0BF1E1D627400BBF162 /* Main.storyboard in Resources */,
 			);

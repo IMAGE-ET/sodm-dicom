@@ -12,10 +12,18 @@ import GPUImage
 class FirstViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
-
-    @IBAction func resetImage(_ sender: Any) {
-        
-        imageView.image = UIImage(named: "head")
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var gaussian: UIButton!
+    @IBOutlet weak var prewitt: UIButton!
+    @IBOutlet weak var erozja: UIButton!
+    @IBOutlet weak var otwarcie: UIButton!
+    @IBOutlet weak var zamkniecie: UIButton!
+    @IBOutlet weak var szkieletyzacja: UIButton!
+    
+    @IBOutlet weak var filtracja: UILabel!
+    
+    @IBAction func resetImage(_ sender: AnyObject) {
+                imageView.image = UIImage(named: "head")
     }
     
     @IBAction func firstButtonAction(_ sender: Any) {
@@ -71,8 +79,25 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUpperLabels()
+        setupLowerLabels()
         
         imageView.image = UIImage(named: "head")
+    }
+    
+    private func setupUpperLabels() {
+        button.layer.cornerRadius = 6.0
+        gaussian.layer.cornerRadius = 6.0
+        prewitt.layer.cornerRadius = 6.0
+    }
+    
+    
+    
+    private func setupLowerLabels() {
+        erozja.layer.cornerRadius = 12.0
+        otwarcie.layer.cornerRadius = 12.0
+        zamkniecie.layer.cornerRadius = 12.0
+        szkieletyzacja.layer.cornerRadius = 12.0
     }
 
 
